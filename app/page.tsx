@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -6,6 +5,7 @@ export default function Home() {
     <div className="flex justify-center items-center w-100 h-screen gap-4">
       <Link href="/login">Login</Link>
       <Link href="/register">Register</Link>
+      <Link href="/quillEditor">Quill Editor</Link>
     </div>
   );
 }
